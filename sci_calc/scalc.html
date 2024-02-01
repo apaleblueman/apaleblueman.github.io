@@ -3,40 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
 </head>
 <body>
-    <h1>Scientific Calculator</h1>
+    <h1>Calculator</h1>
     <label>Math:</label>
-    <input id ="#outputhere" value="input here" type="input"/>
+    <input id="outputhere" placeholder="input expression here" type="text"/>
     <br><br>
-    <button>+</button>
-    <button>-</button>
-    <button>*</button>
-    <button>/</button>
-    <button>(</button>
-    <button>)</button>
+    <button id="plus" onclick="parse_button_val('plus', 'outputhere')">+</button>
+    <button id="minus" onclick="parse_button_val('minus', 'outputhere')">-</button>
+    <button id="multiply" onclick="parse_button_val('multiply', 'outputhere')">*</button>
+    <button id="divide" onclick="parse_button_val('divide', 'outputhere')">/</button>
+    <button id="open-parenthesis" onclick="parse_button_val('open-parenthesis', 'outputhere')">(</button>
+    <button id="close-parenthesis" onclick="parse_button_val('close-parenthesis', 'outputhere')">)</button>
     <br><br>
-    <button>0</button>
-    <button>1</button>
-    <button>2</button>
-    <button>3</button>
-    <button>4</button>
-    <button>5</button>
+    <button id="number-0" onclick="parse_button_val('number-0', 'outputhere')">0</button>
+    <button id="number-1" onclick="parse_button_val('number-1', 'outputhere')">1</button>
+    <button id="number-2" onclick="parse_button_val('number-2', 'outputhere')">2</button>
+    <button id="number-3" onclick="parse_button_val('number-3', 'outputhere')">3</button>
+    <button id="number-4" onclick="parse_button_val('number-4', 'outputhere')">4</button>
+    <button id="number-5" onclick="parse_button_val('number-5', 'outputhere')">5</button>
     <br><br>
-    <button>6</button>
-    <button>7</button>
-    <button>8</button>
-    <button>9</button>
-    <button>.</button>
+    <button id="number-6" onclick="parse_button_val('number-6', 'outputhere')">6</button>
+    <button id="number-7" onclick="parse_button_val('number-7', 'outputhere')">7</button>
+    <button id="number-8" onclick="parse_button_val('number-8', 'outputhere')">8</button>
+    <button id="number-9" onclick="parse_button_val('number-9', 'outputhere')">9</button>
+    <button id="decimal" onclick="parse_button_val('decimal', 'outputhere')">.</button>
     <br><br>
-    <button>delete</button>
-    <button>clear</button>
-    <button>=</button>
-    
-    
-    
-    
-    
+    <button id="delete" onclick="parse_button_action('delete', 'outputhere')"  >delete</button>
+    <button id="clear" onclick="parse_button_action('clear', 'outputhere')">clear</button>
+    <button id="equals" onclick="parse_button_action('equals', 'outputhere')">=</button>
+    <br><br>
+    <p id="show_exp"></p><br>
+    <p id="show_ans"></p>
 </body>
 </html>
