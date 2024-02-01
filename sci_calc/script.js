@@ -26,8 +26,10 @@ function parse_button_action(operator_id, return_to_id){
                 put_exp.innerHTML = ` Your expression was empty `;
             }
             else{
+                
                 put_exp.innerHTML = `Your expression was:${output.value}`;
                 put_ans.innerHTML = `Your answer is:${(eval(output.value)).toFixed(2)}`;
+                output.value += `= ${eval(output.value).toFixed(2)}`;
             }
         }
 }
