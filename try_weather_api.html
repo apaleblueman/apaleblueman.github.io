@@ -8,7 +8,7 @@
     <script>
         async function fetchWeather() {
             try {
-                const response = await fetch('https://api.weatherapi.com/v1/current.json?key=400494431950404bb3901146240102&q=vancouver&aqi=no');
+                const response = await fetch('http://api.weatherapi.com/v1/forecast.json?key=66b0dcfcd4814636a7503446240202&q=London&days=1&aqi=no&alerts=no');
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
             }
