@@ -54,7 +54,7 @@ async function get_forecast(city) {
     const weatherContainer = document.getElementById('weather-forecast-container');
     try {
         weatherContainer.innerHTML = ``;
-        const response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=66b0dcfcd4814636a7503446240202&q=${city}&days=7&aqi=no&alerts=no`);
+        const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=66b0dcfcd4814636a7503446240202&q=${city}&days=7&aqi=no&alerts=no`);
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
