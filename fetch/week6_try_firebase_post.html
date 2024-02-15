@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Submit Information to Firebase Storage</title>
+    <script type="module">
+        document.addEventListener('DOMContentLoaded', () => {
+            const thanksMessage = document.querySelector('#thanksMessage');
+            thanksMessage.style.display = 'none';
+            const submitButton = document.querySelector('#submitButton');
+            submitButton.addEventListener('click', submitForm);
+        });
+        async  function submitForm() {
+            const name = document.querySelector('#name').value.trim();
+            const feedback = document.querySelector('#feedback').value.trim();
+            if (name || feedback) {
+                const data = {
+                name: name,
+                feedback: feedback
+                };
+                try {
+                    const response = await fetch('https://fun165-98f8a-default-rtdb.firebaseio.com/submittedMsg.json', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(data)
+                    });
+
+                    if (!response.ok) {
+                        throw new Error('Error saving data');
+                    }
+                    hideForm();
+                } catch (error) {
+                    console.error('Error saving data: ', error.message);
+                }
+            } else {
+                alert('Please fill in all fields.');
+            }
+        }
+        function hideForm() {
+            const submitForm = document.querySelector('#submitForm');
+            const thanksMessage = document.querySelector('#thanksMessage');
+
+            submitForm.style.display = 'none';
+            thanksMessage.style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+  <div id="submitForm">
+    <h1>Hi, COMP165!</h1>
+    <div class="form-group">
+      <label for="name">Name (Optional):</label>
+      <input type="text" id="name" placeholder="Enter your name">
+    </div>
+    <div class="form-group">
+      <label for="feedback">Course Feedback (if any):</label>
+      <textarea id="feedback" rows="6" maxlength="500" placeholder="Write your expectation for COMP165"></textarea>
+    </div>
+    <button id="submitButton">Submit</button>
+  </div>
+
+  <div id="thanksMessage">
+    <h1>Thanks for submitting. Have fun with Web Programming!</h1>
+  </div>
+</body>
+</html>
