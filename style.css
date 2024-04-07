@@ -114,8 +114,8 @@ li{
     flex-wrap: wrap;
 }
 .image-stack>img{
-    width: 250px;
-
+    width:250px;
+    flex-grow: 0;
     height: 250px;
     border: #2f7fff solid 6px;
     border-radius: 10px;
