@@ -166,3 +166,7 @@ li{
     padding: 60px;
     color: #f9faf8ba;
 }
+.socials{
+    display: flex;
+    gap: 28px;
+}
