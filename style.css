@@ -48,7 +48,7 @@ body{
 }
 .hero-secondary>ul>li{
     font-size: 18px;
-    list-style:disc;
+    list-style:circle;
     color: #e5e7eb93;
     
     margin-bottom: 8px;
