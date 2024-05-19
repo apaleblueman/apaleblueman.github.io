@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     padding: 0;
@@ -128,7 +129,7 @@ li{
 .quote-container{
     background-color: #E5E7EB;
     color:#1F2937;
-    font-style:italic;
+    
     font-weight: lighter;
     display: flex;
     flex-direction: column;
