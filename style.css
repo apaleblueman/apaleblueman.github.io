@@ -15,13 +15,12 @@
 }
 .footer{
     background-color:#2B3035;
-    display: flex;
-    justify-content: center;
+    
     color: white;
     font-size: smaller;
 
 }
 .footer>p{
     padding: 9px;
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
