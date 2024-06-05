@@ -3,99 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Whoami?apaleblueman</title>
+    <title>Whoami</title>
     <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="./images/favicon_io/site.webmanifest">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css" >
+
     
 </head>
-<body>
-    <div class="header">
-        <div class="header-left">
-            <div class="header-logo"><h6>APaleBlueMan</h6></div>
-                <div class="hero-main">
-                    <h3>Whoami?</h3>
-                    <div class="hero-secondary">
-                        <p>My name is Gurchetan or you can call me by my internet name(as all cool people do) a-paleblueman inspired by Sagan's <a style="color:rgb(109, 109, 255);"href="https://www.youtube.com/watch?v=wupToqz1e2g">pale blue dot </a>also known as Earth
-                        <ul>
-                            <li>a CS student obssesed with programming,cybersecurity,Linux🐧,web/game dev 🎮</li><li>Exploring open-source ❤️ </li>
-                            <li>Currently learning python, C, linux and web devolpment.</li>
-                            <li>Sometimes amateur photographer</li>
-                            <li>My hobbies are history, reading manga, watching slice-of-life anime and daydreaming about living offgrid.</li>
-                        </ul>
-                        <a href="https://www.linkedin.com/in/gurchetan-singh-9457322a8" class="sign-up-1">Lets connect!</a>
-                        </p>
-                        </div>
-                </div>
+<body>   
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">ApaleBlueDev <span class="blue">*</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html"><span class="blue">~</span>/Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Blog.html">Blog<span class="blue">.md</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./photography.html">Photographs<span class="blue">.tar.xz</span></a>
+              </li>
+            </ul>
+            <img src="./images/favicon_io/favicon-32x32.png"/>
+          </div>
         </div>
-        <div class="header-right">
-                <div class="links">
-                    <ul>
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./index.html#projects">Projects</a></li>
-                        <li><a href="./Blog.html">Blog</a></li>
-                        <li><a href="./photography.html">Photos</a></li>
-                    </ul>
-                </div>
-                <div class="header-img">
-                    <img class="hero-img" src="./images/hackerman.png" alt="moi" />
-                </div>
-        </div>
+      </nav>
+    <div class="container p-1">
+        <h1 class="h1"><span class="blue">$</span>Whoami</h1>
+        <p class="container-fluid">Hey there! I'm Gurchetan, or as you might find me online, <a href="https://github.com/apaleblueman" class="blue">@apaleblueman</a>. As a dedicated Computer Science student from India, I immerse myself in the realms of coding, cybersecurity, and Linux. My journey spans across web and game development, always with a passion for open-source contributions.
+
+            I'm currently honing my skills in Python, C, and web technologies, while diving deeper into the world of Linux. When I'm not coding, you can find me indulging in photography, anime, manga, movies, and historical tales. And yes, blue is my color of choice!</p>
+    
+    <h1><span class="blue">$</span>What I have been working on ...</h1>   
+    <ul>
+        <li>TicTacToe re-imagined in a terminal.
+            <span class="tag"> C language </span>
+            <span class="tag"> Arrays </span>
+            <span class="tag"> Functions</span>
+            <span class="tag"> Stack</span>
+            <a href="https://github.com/apaleblueman/terminalTicTacToe" class="blue"> View on github</a>
+        </li>
+        <li>Don't let the duck bites in <a href="https://apaleblueman.github.io/dontletducksbite/" class="blue">this</a> online game coded in scratch.
+            <span class="tag">Scratch</span>
+            <span class="tag">Cs50</span>
+            <span class="tag">Pixelart</span>
+            <span class="tag">misc</span>
+        </li>
+        <li>Ever played that nokia <a href="https://en.wikipedia.org/wiki/Snake_(1998_video_game)" class="blue">snake game</a> ? <a href="https://github.com/apaleblueman/snake_game" class="blue">here's</a> one made aptly in python.
+            <span class="tag">Turtle Module</span>
+            <span class="tag">OOP</span>
+            <span class="tag">Animations</span>
+            <span class="tag">Python</span>
+        </li>
+        <li>If you love Dogs, <a href="https://apaleblueman.github.io/IIDO-NGO-template/" class="blue">here's</a> a website dedicated to them.
+            
+        </li>
+        <li></li>
+        <li></li>
+    </ul>
     </div>
-    <div class="content-container">
-        <div id="projects" class="tagline"><h5>Some of my projects</h5></div>
-        <div class="img-container">
-            <div class="image-stack">
-                <img src="./images/dldb.png"/>
-                <!-- <span class="caption">Dont let the ducks bite!<br>an endless duck fighting game made in scratch </span> -->
-                <a class="sign-up-1" href="https://apaleblueman.github.io/dontletducksbite/">dontletducksbite<br>(Scratch)</a>
-            </div>
-            <div class="image-stack">
-                <img src="https://camo.githubusercontent.com/ae00c8dc560c942f7431425d93e695109cc7d4e4a86d696941d80fbac6a05514/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f382f38392f4a6f676f5f64615f76656c68615f2d5f7469635f7461635f746f652e706e672f3130363470782d4a6f676f5f64615f76656c68615f2d5f7469635f7461635f746f652e706e673f3230303630343230313934313532"/>
-                <!-- <a href="https://github.com/apaleblueman/terminalTicTacToe" class="caption">TicTacToe game playable in a terminal<br>coded in C!</a> -->
-                <a class="sign-up-1" href="https://github.com/apaleblueman/terminalTicTacToe">TicTacToe<br>(C)</a>
-            </div>
-            <div class="image-stack">
-                <img src="https://github.com/apaleblueman/snake_game/raw/main/snakegame/sgss.png"/>
-                <!-- <span class="caption">A classic snake game<br>coded in python(no pun intended!)</span> -->
-                <a class="sign-up-1" href="https://github.com/apaleblueman/snake_game">Classic snake<br>(python)</a>
-            </div>
-            <div class="image-stack">
-                <img src="./images/js.png"/>
-                <!-- <span class="caption">some javascript projects that make use of<br> api(s),real-time firebase db and basic javascript</span> -->
-                <a class="sign-up-1" href = "./js_index.html" >collection of some <br>JS projects</a>
-            </div>
-            <div class="image-stack">
-                <img src="./images/calculator.png"/>
-                <!-- <span class="caption">That Calculator Project <br>ever dev makes</span> -->
-                <a   class="sign-up-1" href="https://apaleblueman.github.io/thatCalculatorProject/">that Calculator Project<br>(JS,Html,Css)</a>
-            </div>
-        </div>
-    </div>
-    <div class="quote-container">
-        <center><p>Constant raindrops eventually pierce the stone<br>絶え間ない雨が、やがて石を突き刺す</p>
-        <p class="author ">- an old japanese proverb</p></center>
-        
-    </div>
-    <div class="outer-signup-container">
-        <div class="sign-up-container">
-            <div class="call">
-                <h3>Liked the page or found an issue?</h3>
-                <p>Shoot me an e-mail and I will be in touch!</p>
-            </div>
-            <a href="mailto:gurchetan.singh2@icloud.com" class="sign-up-2">Contact Me</a>
-        </div>
-    </div>
-   <div class="footer">
-    <div>Copyright &copy apaleblueman 👤 2024</div>
-        <div class="socials">
-            <div><a href="https://www.linkedin.com/in/gurchetan-singh-9457322a8/">LinkedIn</a></div>
-            <div><a href="https://github.com/apaleblueman">Github</a></div>
-            <div><a href="https://dev.to/apaleblueman">Dev.to</a></div>
-        </div>
-   
-    </div>
+    
 </body>
 </html>
