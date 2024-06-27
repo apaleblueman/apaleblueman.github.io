@@ -24,3 +24,13 @@
     padding: 9px;
     margin-bottom: 0 !important;
 }
+
+.icon{
+    color: #ffffff;
+    
+}
+.icon-stack{
+    display: flex;
+    gap: 38px;
+    align-items: center;
+}
