@@ -29,6 +29,11 @@
     color: #ffffff;
     
 }
+
+.icon:hover{
+    color: #7DA1FE;
+    
+}
 .icon-stack{
     display: flex;
     gap: 38px;
