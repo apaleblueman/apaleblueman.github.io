@@ -39,3 +39,8 @@
     gap: 38px;
     align-items: center;
 }
+.navbar{
+
+    position: sticky;
+    top: 0;
+}
