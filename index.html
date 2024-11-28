@@ -11,6 +11,20 @@
 
     
 </head>
+
+<script defer>
+  fetch( 'https://hellosalut.stefanbohacek.dev/?mode=auto' )
+.then( function( response ){
+  return response.json()
+} )
+.then( function( jsonData ){
+  console.log( jsonData )
+  
+  document.getElementById('greeting').innerText = jsonData.hello;
+} );
+
+</script>
+
 <body>   
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
@@ -49,8 +63,9 @@
         </div>
       </nav>
     <div class="container p-1">
+        
         <h1 class="h1"><span class="blue">$</span>Whoami</h1>
-        <p class="container-fluid">Hey there! I'm Gurchetan, or as you might find me online, <a href="https://github.com/apaleblueman" class="blue">@apaleblueman</a>. As a dedicated Computer Science student from India, I immerse myself in the realms of coding, cybersecurity, and Linux. My journey spans across web and game development, always with a passion for open-source contributions.
+        <p class="container-fluid"><span id="greeting">Hi</span>! I'm Gurchetan, or as you might find me online, <a href="https://github.com/apaleblueman" class="blue">@apaleblueman</a>. As a dedicated Computer Science student from India, I immerse myself in the realms of coding, cybersecurity, and Linux. My journey spans across web and game development, always with a passion for open-source contributions.
 
             I'm currently honing my skills in Python, C, and web technologies, while diving deeper into the world of Linux. When I'm not coding, you can find me indulging in photography, anime, manga, movies, and historical tales. And yes, blue is my color of choice!</p>
     
