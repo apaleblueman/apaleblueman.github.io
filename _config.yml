@@ -1,5 +1,5 @@
 title: "Blog – A Pale Blue Man"
 description: "My personal blog"
-theme: jekyll-theme-minimal
+theme: jekyll-theme-hacker
 baseurl: ""   # important so links work correctly
 
