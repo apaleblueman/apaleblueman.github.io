@@ -1,9 +1,7 @@
 title: "A Pale Blue Man"
 description: "Personal site and blog"
-
 plugins:
   - jekyll-remote-theme
 
 remote_theme: pages-themes/hacker
-
 base-url: ""
