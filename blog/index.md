@@ -1,8 +1,8 @@
 ---
 layout: home
 title: "Blog"
+permalink: /blog/
 ---
 
-Welcome to my blog!  
-Posts are listed below:
-
+Welcome to my blog!
+ 
