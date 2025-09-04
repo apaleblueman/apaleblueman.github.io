@@ -2,3 +2,6 @@ title: "A Pale Blue Man"
 description: "Personal site and blog"
 theme: minima
 base-url: ""
+minima: 
+  skin: dark
+  date_format: "%b %-d, %Y"
