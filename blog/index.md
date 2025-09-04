@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Posts"
+title: "aPaleBlue Blog"
 permalink: /blog/
 ---
 
