@@ -12,12 +12,8 @@ layout: default
 
   {{ content }}
 
-  <!-- Determine posts to display -->
-  {% if site.paginate %}
-    {% assign posts = paginator.posts %}
-  {% else %}
-    {% assign posts = site.posts %}
-  {% endif %}
+  <!-- Display all posts -->
+  {% assign posts = site.posts %}
 
   {%- if posts.size > 0 -%}
     <ul class="post-list">
@@ -36,36 +32,6 @@ layout: default
         </li>
       {%- endfor -%}
     </ul>
-
-    <!-- Pagination -->
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-          {%- if paginator.previous_page %}
-            <li>
-              <a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">
-                ← Page {{ paginator.previous_page }}
-              </a>
-            </li>
-          {%- else %}
-            <li><div class="pager-edge">•</div></li>
-          {%- endif %}
-
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-
-          {%- if paginator.next_page %}
-            <li>
-              <a href="{{ paginator.next_page_path | relative_url }}" class="next-page">
-                Page {{ paginator.next_page }} →
-              </a>
-            </li>
-          {%- else %}
-            <li><div class="pager-edge">•</div></li>
-          {%- endif %}
-        </ul>
-      </div>
-    {% endif %}
-
   {%- else -%}
     <p>No posts found.</p>
   {%- endif -%}
