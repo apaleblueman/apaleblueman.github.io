@@ -1,7 +1,6 @@
 ---
 layout: home
 title: "aPaleBlue Blog"
-permalink: /blog/
 ---
 
 Welcome to my blog!<br>
