@@ -12,5 +12,7 @@ minima:
 github_username: apaleblueman
 
 # Pagination (optional)
-paginate: 5
+paginate: 5        # number of posts per page
+paginate_path: "/page:num/"   # optional
+
 
