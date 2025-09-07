@@ -1,6 +1,7 @@
 ---
 layout: home
-title: "Hi:3"
+title: "ApaleBlueBlog"
+permalink: /blog/
 ---
 
 Welcome to my blog!<br>
