@@ -1,0 +1,116 @@
+---
+---
+
+/* Load Minima defaults first */
+@import "minima";
+
+/* ==========================
+   Custom Permanent Dark Mode
+   ========================== */
+
+/* Base colors */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.7;
+}
+
+/* Links */
+a {
+  color: #80cbc4;
+  text-decoration: none;
+}
+a:hover {
+  color: #4db6ac;
+  text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Header */
+.site-header {
+  background: #1f1f1f;
+  border-bottom: 1px solid #333;
+}
+.site-title, .site-nav a {
+  color: #e0e0e0;
+}
+.site-nav a:hover {
+  color: #80cbc4;
+}
+
+/* Footer */
+.site-footer {
+  background: #1f1f1f;
+  border-top: 1px solid #333;
+  color: #aaa;
+}
+.site-footer a {
+  color: #80cbc4;
+}
+
+/* Homepage hero */
+.hero {
+  text-align: center;
+  padding: 3em 1em;
+  margin-bottom: 2em;
+  background: #181818;
+  border-radius: 10px;
+}
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+  color: #ffcc80;
+}
+.hero p {
+  color: #ccc;
+}
+
+/* Post list */
+.post-list li {
+  border-bottom: 1px solid #333;
+  padding: 1em 0;
+}
+.post-meta {
+  color: #bbb;
+}
+.post-link {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #ffffff;
+}
+.post-link:hover {
+  color: #80cbc4;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 2em;
+}
+.pagination a {
+  color: #80cbc4;
+}
+.pagination .current-page {
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Code blocks */
+pre, code {
+  background: #1e1e1e;
+  color: #dcdcdc;
+  border-radius: 6px;
+}
+pre {
+  padding: 1em;
+  overflow-x: auto;
+}
+
