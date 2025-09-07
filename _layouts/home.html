@@ -4,6 +4,7 @@ layout: default
 
 <div class="home">
 
+  <!-- Hero Section -->
   <section class="hero">
     <h1>{{ site.title }}</h1>
     <p>{{ site.description }}</p>
@@ -11,6 +12,7 @@ layout: default
 
   {{ content }}
 
+  <!-- Determine posts to display -->
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
@@ -35,6 +37,7 @@ layout: default
       {%- endfor -%}
     </ul>
 
+    <!-- Pagination -->
     {% if site.paginate %}
       <div class="pager">
         <ul class="pagination">
@@ -61,7 +64,11 @@ layout: default
           {%- endif %}
         </ul>
       </div>
-    {%- endif %}
+    {% endif %}
+
+  {%- else -%}
+    <p>No posts found.</p>
   {%- endif -%}
 
 </div>
+
