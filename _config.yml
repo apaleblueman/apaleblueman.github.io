@@ -1,7 +1,4 @@
 title: "Back to main website"
 description: "Personal devlog and tech blog"
-theme: minima
+theme: jekyll-theme-hacker
 base-url: ""
-minima: 
-  skin: dark
-  date_format: "%b %-d, %Y"
