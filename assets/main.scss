@@ -1,22 +1,15 @@
 ---
 ---
 
-/* Load Minima defaults first */
 @import "minima";
 
-/* ==========================
-   Custom Permanent Dark Mode
-   ========================== */
-
-/* Base colors */
+/* Base dark mode */
 body {
   background-color: #121212;
   color: #e0e0e0;
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.7;
 }
 
-/* Links */
 a {
   color: #80cbc4;
   text-decoration: none;
@@ -26,13 +19,10 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Headings */
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
-  font-weight: 600;
 }
 
-/* Header */
 .site-header {
   background: #1f1f1f;
   border-bottom: 1px solid #333;
@@ -44,7 +34,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #80cbc4;
 }
 
-/* Footer */
 .site-footer {
   background: #1f1f1f;
   border-top: 1px solid #333;
@@ -54,7 +43,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #80cbc4;
 }
 
-/* Homepage hero */
 .hero {
   text-align: center;
   padding: 3em 1em;
@@ -71,7 +59,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #ccc;
 }
 
-/* Post list */
 .post-list li {
   border-bottom: 1px solid #333;
   padding: 1em 0;
@@ -88,7 +75,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #80cbc4;
 }
 
-/* Pagination */
 .pagination {
   display: flex;
   justify-content: center;
@@ -103,7 +89,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-/* Code blocks */
+.post-content {
+  color: #e0e0e0;
+}
 pre, code {
   background: #1e1e1e;
   color: #dcdcdc;
@@ -113,4 +101,3 @@ pre {
   padding: 1em;
   overflow-x: auto;
 }
-

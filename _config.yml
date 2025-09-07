@@ -1,6 +1,16 @@
-title: "aPaleBlueBlog"
-description: "Personal devlog and tech blog"
+title: "My Dark Blog"
+description: "A Jekyll blog with permanent dark mode"
+baseurl: ""
 theme: minima
+
 minima:
-  skin: dark
-base-url: ""
+  skin: classic
+  show_excerpts: true
+  date_format: "%b %-d, %Y"
+
+# Optional: GitHub username for footer link
+github_username: apaleblueman
+
+# Pagination (optional)
+paginate: 5
+
