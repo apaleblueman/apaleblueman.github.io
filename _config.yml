@@ -1,4 +1,6 @@
 title: "aPaleBlueBlog"
 description: "Personal devlog and tech blog"
 theme: minima
+minima:
+  skin: dark
 base-url: ""

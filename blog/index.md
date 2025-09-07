@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "aPaleBlue Blog"
+title: "Hi:3"
 ---
 
 Welcome to my blog!<br>
