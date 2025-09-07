@@ -6,11 +6,10 @@ layout: default
 
   <!-- Hero Section -->
   <section class="hero">
-    <h1>{{ site.title }}</h1>
-    <p>{{ site.description }}</p>
+    <h1>Posts</h1>
+    {{ content }}
   </section>
 
-  {{ content }}
 
   <!-- Display all posts -->
   {% assign posts = site.posts %}
