@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        .content-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .content-container img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .content-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Loading indicator */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 18px;
+            color: #666;
+        }
+
+        /* Error message */
+        .error {
+            text-align: center;
+            padding: 40px;
+            color: #f44336;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-container" id="content-container">
+        <div class="loading">Loading images...</div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async function() {
+            const container = document.getElementById('content-container');
+            
+            // Clear loading message
+            container.innerHTML = '';
+            
+            // Array of common image extensions
+            const imageExtensions = ['jpg', 'jpeg', 'png', 'gif', 'webp', 'svg', 'bmp'];
+            
+            // Function to check if an image exists
+            function imageExists(url) {
+                return new Promise((resolve) => {
+                    const img = new Image();
+                    img.onload = () => resolve(true);
+                    img.onerror = () => resolve(false);
+                    img.src = url;
+                });
+            }
+
+            // Try to load images with sequential numbering (1.png, 2.png, etc.)
+            // You can modify this logic based on your actual image naming convention
+            let imageFound = false;
+            let index = 1;
+            
+            while (!imageFound || index <= 50) { // Try up to 50 images
+                let imageAdded = false;
+                
+                // Try each extension for the current index
+                for (const ext of imageExtensions) {
+                    const imagePath = `./images/${index}.${ext}`;
+                    const exists = await imageExists(imagePath);
+                    
+                    if (exists) {
+                        const img = document.createElement('img');
+                        img.src = imagePath;
+                        img.alt = `Image ${index}`;
+                        img.loading = 'lazy'; // Add lazy loading for better performance
+                        
+                        // Add click handler to open image in new tab
+                        img.addEventListener('click', () => {
+                            window.open(imagePath, '_blank');
+                        });
+                        
+                        container.appendChild(img);
+                        imageFound = true;
+                        imageAdded = true;
+                        break; // Stop trying extensions once we find one
+                    }
+                }
+                
+                if (!imageAdded && imageFound) {
+                    // If we've found images before but now there's a gap, we might stop
+                    // Comment out the next line if your images aren't sequentially numbered
+                    break;
+                }
+                
+                index++;
+            }
+
+            // If no images were found using sequential numbering, 
+            // try to load specific image names (modify this array based on your actual images)
+            if (!imageFound) {
+                // Example: try specific image names
+                const imageNames = ['image1', 'photo1', 'pic1', 'gallery1']; // Add your actual image names here
+                
+                for (const name of imageNames) {
+                    for (const ext of imageExtensions) {
+                        const imagePath = `./images/${name}.${ext}`;
+                        const exists = await imageExists(imagePath);
+                        
+                        if (exists) {
+                            const img = document.createElement('img');
+                            img.src = imagePath;
+                            img.alt = name;
+                            img.loading = 'lazy';
+                            
+                            img.addEventListener('click', () => {
+                                window.open(imagePath, '_blank');
+                            });
+                            
+                            container.appendChild(img);
+                            imageFound = true;
+                        }
+                    }
+                }
+            }
+
+            // Show message if no images were found
+            if (!imageFound) {
+                container.innerHTML = '<div class="error">No images found in the ./images/ directory</div>';
+            }
+        });
+    </script>
+</body>
+</html>
