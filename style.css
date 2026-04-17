@@ -105,15 +105,16 @@ body{
     padding: 1em;
     display: flex;
     flex-direction: column;
-    width: 20em;
-    
+    width: 20em;   
     
 }
+.project-heading{
+    font-size:2em;
+    font-family: "Hacked2";
+    color: greenyellow;
+}
 .project-card:hover{
-    transform: scale(1.2);
-    transition-delay: 100ms;
-    transition-duration:550ms;
-    
+    border: solid 1px red;
 }
 .projects-container{
     display: flex;
@@ -122,4 +123,12 @@ body{
     gap: 1em;
     flex-wrap: wrap;
     
+}
+.tech-tag{
+    font-family: "Hacked2";
+    background-color: greenyellow;
+    border: none;
+    border-radius: 20px;
+    color:black;
+    padding: 1%;
 }
