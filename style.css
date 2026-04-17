@@ -1,12 +1,40 @@
+@font-face {
+    font-family: Hacked;
+    src: url(https://hackedfont.com/HACKED.ttf);
+}
+@font-face {
+    font-family: Hacked2;
+    src: url(./fonts/pixel_operator/PixelOperator.ttf);
+}
+body{
+    background-image: url(./images/dedsec.gif);
+    background-repeat:repeat;
+    
+}
 .blue{
-    color: rgb(73, 120, 239);
+    color:yellowgreen;
+    font-weight: 600;
     text-decoration: none;
 }
-
+.navbar{
+    font-family: Hacked;
+    font-size: larger;
+}
+.navbar-brand{
+    font-size: larger;
+}
+.nav-item>a:hover{
+    
+    color: white;
+}
+.nav-item>a:active{
+    
+    color: yellowgreen;
+}
 .tag{
 
     color:beige;
-    background-color: rgb(125, 161, 254);
+    background-color: rgb(146, 254, 125);
     font-size: xx-small;
     border: solid transparent ;
     border-radius: 15px;
@@ -32,7 +60,7 @@
 }
 
 .icon:hover{
-    color: #7DA1FE;
+    color: yellowgreen;
     
 }
 .icon-stack{
@@ -44,4 +72,54 @@
 
     position: sticky;
     top: 0;
+}
+
+.container{
+    border: solid 1px white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background:black;
+    margin-top: 1.5em;
+}
+
+#greeting, .heading{
+    color: greenyellow;
+    font-family: Hacked;
+    font-size: 4em;
+}
+
+.text{
+    color:#ffffff;
+    font-size: 1.5em;
+    font-family: "Hacked2", sans-serif;
+}
+.hero-pic{
+    width: 30em;
+    height: auto;
+}
+
+.project-card{
+    border: solid 1px white;
+    background-color: #2B3035;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    
+    
+}
+.project-card:hover{
+    transform: scale(1.2);
+    transition-delay: 100ms;
+    transition-duration:550ms;
+    
+}
+.projects-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    
 }
