@@ -1,0 +1,10 @@
+{"ts":"2026-04-19T08:41:26.446Z","session":"20260419-084126","kind":"server_start","data":{"port":5500,"host":"0.0.0.0","root":"/home/apaleblueman/gitrepos/apaleblueman.github.io","https":false,"live_reload":true}}
+{"ts":"2026-04-19T08:41:26.689Z","session":"20260419-084126","kind":"ws_connect","data":{"client_id":"c0","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0","viewport":[661,734]}}
+{"ts":"2026-04-19T08:41:26.959Z","session":"20260419-084126","kind":"http_request","data":{"method":"GET","path":"/","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:41:27.018Z","session":"20260419-084126","kind":"http_request","data":{"method":"GET","path":"/style.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:41:27.018Z","session":"20260419-084126","kind":"http_request","data":{"method":"GET","path":"/script.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:41:27.021Z","session":"20260419-084126","kind":"http_request","data":{"method":"GET","path":"/images/me.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:41:27.022Z","session":"20260419-084126","kind":"http_request","data":{"method":"GET","path":"/images/hero.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:41:27.075Z","session":"20260419-084126","kind":"http_request","data":{"method":"GET","path":"/images/dedsec.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:41:27.120Z","session":"20260419-084126","kind":"http_request","data":{"method":"GET","path":"/fonts/pixel_operator/PixelOperator.ttf","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:41:27.126Z","session":"20260419-084126","kind":"ws_connect","data":{"client_id":"c1","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0","viewport":[661,734]}}

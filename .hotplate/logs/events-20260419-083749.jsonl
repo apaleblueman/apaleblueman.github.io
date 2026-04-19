@@ -1,0 +1,69 @@
+{"ts":"2026-04-19T08:37:49.458Z","session":"20260419-083749","kind":"server_start","data":{"port":5500,"host":"0.0.0.0","root":"/home/apaleblueman/gitrepos/apaleblueman.github.io","https":false,"live_reload":true}}
+{"ts":"2026-04-19T08:37:49.975Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/","status":200,"duration_ms":0}}
+{"ts":"2026-04-19T08:37:50.069Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/script.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:37:50.070Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/style.css","status":200,"duration_ms":0}}
+{"ts":"2026-04-19T08:37:50.111Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/hero.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:37:50.111Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/me.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:37:50.141Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/dedsec.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:37:50.169Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/fonts/pixel_operator/PixelOperator.ttf","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:37:50.184Z","session":"20260419-083749","kind":"ws_connect","data":{"client_id":"c0","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0","viewport":[661,734]}}
+{"ts":"2026-04-19T08:37:51.396Z","session":"20260419-083749","kind":"ws_disconnect","data":{"client_id":"c0"}}
+{"ts":"2026-04-19T08:37:51.414Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:37:51.447Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/script.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:37:51.449Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/style.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:37:51.463Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/me.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:37:51.464Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/hero.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:37:51.469Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/dedsec.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:37:51.667Z","session":"20260419-083749","kind":"ws_connect","data":{"client_id":"c1","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0","viewport":[661,734]}}
+{"ts":"2026-04-19T08:38:17.477Z","session":"20260419-083749","kind":"ws_disconnect","data":{"client_id":"c1"}}
+{"ts":"2026-04-19T08:38:17.494Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:17.547Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/style.css","status":200,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:17.547Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/script.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:17.567Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/me.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:17.567Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/hero.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:17.578Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/dedsec.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:17.709Z","session":"20260419-083749","kind":"ws_connect","data":{"client_id":"c2","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0","viewport":[661,734]}}
+{"ts":"2026-04-19T08:38:25.037Z","session":"20260419-083749","kind":"ws_disconnect","data":{"client_id":"c2"}}
+{"ts":"2026-04-19T08:38:25.053Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:25.105Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/script.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:25.109Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/style.css","status":200,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:25.151Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/hero.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:25.151Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/me.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:25.165Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/dedsec.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:25.285Z","session":"20260419-083749","kind":"ws_connect","data":{"client_id":"c3","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0","viewport":[661,734]}}
+{"ts":"2026-04-19T08:38:26.333Z","session":"20260419-083749","kind":"ws_disconnect","data":{"client_id":"c3"}}
+{"ts":"2026-04-19T08:38:26.338Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.383Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/style.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.383Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/script.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.401Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/me.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.401Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/hero.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.409Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/dedsec.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.552Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.596Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/style.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.596Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/script.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.615Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/dedsec.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.615Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/hero.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.616Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/me.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.649Z","session":"20260419-083749","kind":"ws_connect","data":{"client_id":"c4","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0","viewport":[661,734]}}
+{"ts":"2026-04-19T08:38:26.732Z","session":"20260419-083749","kind":"ws_disconnect","data":{"client_id":"c4"}}
+{"ts":"2026-04-19T08:38:26.736Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.780Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/style.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.780Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/script.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.798Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/dedsec.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.798Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/me.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.798Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/hero.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.903Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.948Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/style.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.950Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/script.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.965Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/me.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.966Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/hero.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.974Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/dedsec.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:26.996Z","session":"20260419-083749","kind":"ws_connect","data":{"client_id":"c5","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0","viewport":[661,734]}}
+{"ts":"2026-04-19T08:38:33.939Z","session":"20260419-083749","kind":"ws_disconnect","data":{"client_id":"c5"}}
+{"ts":"2026-04-19T08:38:33.949Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:33.986Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/style.css","status":200,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:33.986Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/script.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:34.028Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/hero.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:34.028Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/me.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:34.042Z","session":"20260419-083749","kind":"http_request","data":{"method":"GET","path":"/images/dedsec.gif","status":304,"duration_ms":0}}
+{"ts":"2026-04-19T08:38:34.241Z","session":"20260419-083749","kind":"ws_connect","data":{"client_id":"c6","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0","viewport":[661,734]}}
