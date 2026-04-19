@@ -83,7 +83,7 @@ body{
     margin-top: 1.5em;
 }
 
-#greeting, .heading{
+.heading{
     color: greenyellow;
     font-family: Hacked;
     font-size: 4em;
