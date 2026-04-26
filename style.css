@@ -7,7 +7,7 @@
     src: url(./fonts/pixel_operator/PixelOperator.ttf);
 }
 body{
-    background-image:url(./images/static.gif),url(./images/dedsec.gif);
+    background-image:url(./images/static.gif), url(./images/dedsec.gif);
     background-repeat:repeat;
     background-blend-mode:screen;
 }
