@@ -1,3 +1,2 @@
-# apaleblueman.github.io
+# apaleblueman.github.io is a githubPages website made by me for learning web dev, showcasing my projects, blogs, photography cand writeups
 
-* is a githubPages website made by me for learning web Dev and shocasing my projects!
